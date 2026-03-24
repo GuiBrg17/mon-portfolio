@@ -8,7 +8,7 @@ html, body {
   padding: 0;
   height: 100%;
   font-family: 'Raleway', sans-serif;
-  background: #f5f5f5;
+  background: linear-gradient(to right, #ffe259, #ffa751);
   color: #333;
 }
 
@@ -40,8 +40,7 @@ h1, h2, h3 {
 .hero {
   text-align: center;
   padding: 80px 20px 40px;
-  background: #ffffff;
-  border-bottom: 1px solid #e0e0e0;
+  background: linear-gradient(to right, #ffe259, #ffa751);
 }
 
 .hero h1 {
@@ -50,8 +49,12 @@ h1, h2, h3 {
   animation: fadeIn 1s ease-out;
 }
 
-.hero-links a:hover {
-  background-color: #e8e8e8;
+.hero-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .hero-links a {
@@ -157,7 +160,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #e8e8e8;
+  background-color: #ffe259;
 }
 
 #form-message {
@@ -180,7 +183,7 @@ form button:hover {
 }
 
 .footer .socials a:hover {
-  color: #555;
+  color: #ffa751;
 }
 
 @keyframes fadeIn {
@@ -309,7 +312,7 @@ form button:hover {
   position: absolute;
   left: -43px;
   top: 0;
-  background: #333;
+  background: #ffa751;
   color: white;
   width: 36px;
   height: 36px;
